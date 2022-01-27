@@ -1,0 +1,208 @@
+[
+        [
+            "name" : "CamelGenericConnector",
+            "displayName" : "CamelGenericConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.GenericCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "path" : new StringDataType()
+                ,"payload" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelGenericConnector.png"
+
+        ]
+    ,[
+            "name" : "CamelSQLConnector",
+            "displayName" : "CamelSQLConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.SQLCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "payload" : new StringDataType()
+                ,"query" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelSQLConnector.png"
+
+        ]
+    ,[
+            "name" : "CamelFileConnector",
+            "displayName" : "CamelFileConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.FileCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "path" : new StringDataType()
+                ,"fileName" : new StringDataType()
+                ,"payload" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelFileConnector.png"
+
+        ]
+    ,[
+            "name" : "CamelFTPConnector",
+            "displayName" : "CamelFTPConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.FTPCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "hostname" : new StringDataType()
+                ,"password" : new StringDataType()
+                ,"payload" : new StringDataType()
+                ,"port" : new StringDataType()
+                ,"directoryname" : new StringDataType()
+                ,"CamelFileName" : new StringDataType()
+                ,"username" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelFTPConnector.png"
+
+        ]
+    ,[
+            "name" : "CamelJMSConnector",
+            "displayName" : "CamelJMSConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.JMSCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "payload" : new StringDataType()
+                ,"destinationName" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelJMSConnector.png"
+
+        ]
+    ,[
+            "name" : "CamelFTPSConnector",
+            "displayName" : "CamelFTPSConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.FTPSCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "hostName" : new StringDataType()
+                ,"password" : new StringDataType()
+                ,"payload" : new StringDataType()
+                ,"port" : new StringDataType()
+                ,"userName" : new StringDataType()
+                ,"directoryName" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelFTPSConnector.png"
+
+        ]
+    ,[
+            "name" : "CamelXSLTConnector",
+            "displayName" : "CamelXSLTConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.XSLTCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "payload" : new StringDataType()
+                ,"templateName" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelXSLTConnector.png"
+
+        ]
+    ,[
+            "name" : "CamelCXFConnector",
+            "displayName" : "CamelCXFConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.CXFCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "address" : new StringDataType()
+                ,"serviceClass" : new StringDataType()
+                ,"payload" : new StringDataType()
+                ,"portName" : new StringDataType()
+                ,"serviceName" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelCXFConnector.png"
+
+        ]
+
+]

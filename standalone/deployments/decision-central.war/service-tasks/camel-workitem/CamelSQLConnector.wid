@@ -1,0 +1,27 @@
+[
+        [
+            "name" : "CamelSQLConnector",
+            "displayName" : "CamelSQLConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.SQLCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "payload" : new StringDataType()
+                ,"query" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelSQLConnector.png"
+
+        ]
+
+]

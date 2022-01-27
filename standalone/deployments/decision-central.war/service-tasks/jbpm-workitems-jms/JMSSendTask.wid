@@ -1,0 +1,26 @@
+[
+        [
+            "name" : "JMSSendTask",
+            "displayName" : "JMSSendTask",
+            "category" : "jbpm-workitems-jms",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.jms.JMSSendTaskWorkItemHandler()",
+            "documentation" : "jbpm-workitems-jms/index.html",
+
+            "parameters" : [
+                                "Signal" : new StringDataType()
+                ,"SignalWorkItemId" : new StringDataType()
+                ,"SignalProcessInstanceId" : new StringDataType()
+                ,"SignalDeploymentId" : new StringDataType()
+                ,"Data" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm:jbpm-workitems-jms:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "JMSSendTask.png"
+
+        ]
+
+]

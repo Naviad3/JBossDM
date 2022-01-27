@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	logallrefupdates = false
+	precomposeunicode = true
+[http]
+	sslVerify = true
+[remote "origin"]
+	url = file:///Users/navia/jboss-eap-7.3/bin/.kie-wb-playground/16982831debeaeb11e6c9bfd1404d88e
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/tags/*:refs/tags/*
+	fetch = +refs/notes/*:refs/notes/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

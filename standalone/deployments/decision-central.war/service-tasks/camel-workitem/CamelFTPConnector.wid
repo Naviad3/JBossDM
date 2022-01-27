@@ -1,0 +1,32 @@
+[
+        [
+            "name" : "CamelFTPConnector",
+            "displayName" : "CamelFTPConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.FTPCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "hostname" : new StringDataType()
+                ,"password" : new StringDataType()
+                ,"payload" : new StringDataType()
+                ,"port" : new StringDataType()
+                ,"directoryname" : new StringDataType()
+                ,"CamelFileName" : new StringDataType()
+                ,"username" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelFTPConnector.png"
+
+        ]
+
+]

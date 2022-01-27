@@ -1,0 +1,27 @@
+[
+        [
+            "name" : "CamelGenericConnector",
+            "displayName" : "CamelGenericConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.GenericCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "path" : new StringDataType()
+                ,"payload" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelGenericConnector.png"
+
+        ]
+
+]

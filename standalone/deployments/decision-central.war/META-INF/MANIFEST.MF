@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Implementation-Title: Business Central - Distribution Wars
+Implementation-Version: 7.52.0.Final-redhat-00008
+Java-Version: 1.8.0_121
+Built-By: PNC-Builder-0.4.0
+Scm-Connection: scm:git:https://github.com/kiegroup/droolsjbpm-build-b
+ ootstrap.git/kie-wb-distributions/business-central-parent/business-ce
+ ntral-distribution-wars/business-central
+Specification-Vendor: JBoss by Red Hat
+Os-Arch: amd64
+Specification-Title: Business Central - Distribution Wars
+Implementation-Vendor-Id: org.kie
+Java-Vendor: Oracle Corporation
+Os-Name: Linux
+Scm-Url: https://github.com/kiegroup/droolsjbpm-build-bootstrap/kie-wb
+ -distributions/business-central-parent/business-central-distribution-
+ wars/business-central
+Implementation-Vendor: JBoss by Red Hat
+Main-Class: org.wildfly.swarm.bootstrap.Main
+Os-Version: 3.10.0-1160.15.2.el7.x86_64
+Scm-Revision: e5514e4ced9a8b3b0a319d912050ece1b876401f
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_121
+Specification-Version: 7.52
+Implementation-URL: http://www.kiegroup.org/kie-wb-distributions/busin
+ ess-central-parent/business-central-distribution-wars/business-centra
+ l
+

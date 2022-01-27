@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>traffic-violation</groupId>
+  <artifactId>traffic-violation</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220127.144248</timestamp>
+      <buildNumber>6</buildNumber>
+    </snapshot>
+    <lastUpdated>20220127144248</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20220127.144248-6</value>
+        <updated>20220127144248</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20220127.144248-6</value>
+        <updated>20220127144248</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

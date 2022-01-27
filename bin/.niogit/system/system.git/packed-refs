@@ -1,0 +1,6 @@
+# pack-refs with: peeled
+62e6a53aac6b19588a0e49981300f388324d69a1 refs/heads/locks
+d9f9b445bcd2d2dffc924698a59386fb02fddf29 refs/heads/master
+0aa59e8e73d93a75d60d8e0c761c943e0bdeee9a refs/heads/naviad3-uf-user
+9a5f389e68805437ccb696ad4cdc59b64cc976f6 refs/heads/servers
+988940925cd5746e0f79fba61090ea3a2e90cd43 refs/heads/service-tasks

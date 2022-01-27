@@ -1,0 +1,27 @@
+[
+        [
+            "name" : "CamelXSLTConnector",
+            "displayName" : "CamelXSLTConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.XSLTCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "payload" : new StringDataType()
+                ,"templateName" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelXSLTConnector.png"
+
+        ]
+
+]

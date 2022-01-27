@@ -1,0 +1,30 @@
+[
+        [
+            "name" : "CamelCXFConnector",
+            "displayName" : "CamelCXFConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.CXFCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "address" : new StringDataType()
+                ,"serviceClass" : new StringDataType()
+                ,"payload" : new StringDataType()
+                ,"portName" : new StringDataType()
+                ,"serviceName" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelCXFConnector.png"
+
+        ]
+
+]

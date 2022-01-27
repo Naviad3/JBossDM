@@ -1,0 +1,28 @@
+[
+        [
+            "name" : "CamelFileConnector",
+            "displayName" : "CamelFileConnector",
+            "category" : "camel-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.camel.FileCamelWorkitemHandler()",
+            "documentation" : "camel-workitem/index.html",
+
+            "parameters" : [
+                                "path" : new StringDataType()
+                ,"fileName" : new StringDataType()
+                ,"payload" : new StringDataType()
+
+            ],
+            "results" : [
+                                "response" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:camel-workitem:7.52.0.Final-redhat-00008"
+
+            ],
+            "icon" : "CamelFileConnector.png"
+
+        ]
+
+]
